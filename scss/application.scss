@@ -5,6 +5,9 @@ $light:#9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 
+body{
+  font-family: 'Raleway', sans-serif;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -19,17 +22,17 @@ $border: #E9E9E9;
 
   .name{
     font-weight: 700;
-    font-size: .7em;
+    font-size: .8em;
     text-transform: uppercase;
     border: 1px solid $border;
-    padding: 0.75em 1rem;
+    padding: 1rem;
     text-decoration: none;
     color: $dark;
     float: left;
   }
   nav{
     float: right;
-    padding-top: .9rem;
+    padding-top: 1.5rem;
     a{
       color: $dark;
       text-decoration: none;
